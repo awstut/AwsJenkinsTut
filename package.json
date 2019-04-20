@@ -1,0 +1,23 @@
+{
+  "name": "awsjenkinstut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awstut/AwsJenkinsTut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awstut/AwsJenkinsTut/issues"
+  },
+  "homepage": "https://github.com/awstut/AwsJenkinsTut#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "zombie": "^6.1.4"
+  }
+}

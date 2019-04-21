@@ -55,7 +55,8 @@
                     "Statement": [
                         {
                             "Action": [
-                                "codepipeline:*"
+                                "codepipeline:*",
+                                "s3:*"
                             ],
                             "Effect": "Allow",
                             "Resource": [

@@ -1,5 +1,6 @@
 #!/bin/sh
-pm2 stop helloworld --silent    
+runuser -l  ec2-user -c 'pm2 stop helloworld --silent'
+#pm2 stop helloworld --silent    
 
 #[[ -e /etc/init/helloworld.conf ]] \
 #  && status helloworld | \

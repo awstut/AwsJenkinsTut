@@ -1,2 +1,2 @@
 #!/bin/sh
-start helloworld
+pm2 start /usr/local/helloworld/helloworld.js
